@@ -1940,7 +1940,7 @@ a.animated-button.victoria-one:after {
 	background-color: transparent !important;
 	border: 1px solid #ccc;
 }
-#add-button i, #remove-button i, .button-success {
+#add-button i, #remove-button i {
 	color:#333 !important;
 }
 #myMap{
