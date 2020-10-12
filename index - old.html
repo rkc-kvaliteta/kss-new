@@ -6,11 +6,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<!--<meta name="keywords"
+	<meta name="keywords"
 		content="BPM, Portal, BRE, MDM, Sharepoint, Liferay, Biometric, BPM, BPMS, rapid application development, ESB, Business Process Management System, Apps , Connector, BPMN , BPMN 2.0, Rules Engine, System integration, Africa Consultant, Africa IT Service, Kenya, Zambia, South Africa, allot, Rwanda, Ethiopia, Mobile, IP migration, backhaul, LTE, 3GPP, Bandwidth, billing, Data, gx, gy, gz, AAA, Allot, BYOD, Telecom, banking, egovernment, student management, ecommerce">
-	 <meta name="description"
+	<meta name="description"
 		content="Welcome to the Kvaliteta, entry point to information about our products, business solutions and consulting services including IT strategy, Architecture Design, Integration Framework, Implementation and Management of large-scale Systems for both Enterprise and Government.">
-	 -->
+	
 	<link rel="icon" href="images/logo-solo-q.png">
 
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -52,12 +52,13 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGNSXWH"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-
+	
+	<!--<header class="navbar-static-top">-->
 	<div class="Top-Nav navbar-static-top">
 		<div class="row" id="row-id">
 			<div class="col-xs-6 col-sm-4 col-md-2 col-lg-2">
 				<div class="logo-bar">
-					<a class="navbar-brand" href="home.html">
+					<a class="navbar-brand" href="#home">
 						<img src="img/Kss-HD.png" alt="Logo" class="logo-1" />
 					</a>
 				</div>
@@ -123,7 +124,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span> 
 									</button>	
-									<a class="navbar-brand" href="home.html"><img src="img/Kss-HD.png" alt="Logo" class="logo-part2" /></a>
+									<a class="navbar-brand" href="#home"><img src="img/Kss-HD.png" alt="Logo" class="logo-part2" /></a>
 								</div>
 
 								<div class="collapse navbar-collapse navbar-right" id="navbar-collapse-main">
@@ -143,57 +144,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 										</li>
 										
 										<li class="dropdown" id="sdaasmenu">
-											<a class="dropdown-toggle" href="intro.html">SDAAS<b class="caret hidden-xs"></b></a>
+											<a class="dropdown-toggle" href="#sdaas/intro">SDAAS<b class="caret hidden-xs"></b></a>
 											<a class="dropdown-toggle pull-right hidden-sm hidden-md hidden-lg" data-toggle="dropdown"><i
 													class="fas fa-angle-down"></i></a>
 											<ul class="dropdown-menu p-0">
-												<li><a href="kite.html">KITE FRAMEWORK</a></li>
-												<li><a href="cid.html">CiD FRAMEWORK</a></li>
-												<li><a href="delivery-model.html">DELIVERY MODEL</a></li>
+												<li><a href="#sdaas/kite">KITE FRAMEWORK</a></li>
+												<li><a href="#sdaas/cid">CiD FRAMEWORK</a></li>
+												<li><a href="#sdaas/delivery-model">DELIVERY MODEL</a></li>
 											</ul>
 										</li>
 										
 										<li class="dropdown" id="entitmenu">
-												<a class="dropdown-toggle" href="ent-it.html">ENTERPRISE-IT<b class="caret hidden-xs"></b></a>
+												<a class="dropdown-toggle" href="#enterprise/ent-it">ENTERPRISE-IT<b class="caret hidden-xs"></b></a>
 												<a class="dropdown-toggle pull-right hidden-sm hidden-md hidden-lg" data-toggle="dropdown"><i
 														class="fas fa-angle-down"></i></a>
 											<ul class="dropdown-menu p-0">
-												<li><a href="cloud.html">CLOUD</a></li>
-												<li><a href="sre.html">SRE</a></li>
-												<li><a href="dcim.html">DCIM</a></li>
-												<li><a href="connected_workspace.html">CONNECTED WORKSPACE</a></li>
-												<li><a href="services.html">SERVICES</a></li>
+												<li><a href="#enterprise/cloud">CLOUD</a></li>
+												<li><a href="#enterprise/sre">SRE</a></li>
+												<li><a href="#enterprise/dcim">DCIM</a></li>
+												<li><a href="#enterprise/connected_workspace">CONNECTED WORKSPACE</a></li>
+												<li><a href="#enterprise/services">SERVICES</a></li>
 											</ul>
 										</li>
 										
 										<li class="dropdown" id="spitmenu">
-												<a class="dropdown-toggle" href="serviceprovider.html">SERVICE PROVIDER-IT<!--<b class="caret hidden-xs"></b>--></a>
+												<a class="dropdown-toggle" href="#sp-it/serviceprovider">SERVICE PROVIDER-IT<!--<b class="caret hidden-xs"></b>--></a>
 												<a class="dropdown-toggle pull-right hidden-sm hidden-md hidden-lg" data-toggle="dropdown"><i class="fas fa-angle-down"></i></a>
+											
+											<!-- <ul class="dropdown-menu">
+												<li><a href="#verdant/verdant">VERDANT</a></li>
+											</ul> -->
 										</li>
 										
 										<li class="dropdown" id="partneringmenu">
-											<a class="dropdown-toggle" href="model.html">PARTNERING<b class="caret hidden-xs"></b></a>
+											<a class="dropdown-toggle" href="#partnering/model">PARTNERING<b class="caret hidden-xs"></b></a>
 											<a class="dropdown-toggle pull-right hidden-sm hidden-md hidden-lg" data-toggle="dropdown"><i
 													class="fas fa-angle-down"></i></a>
 											<ul class="dropdown-menu p-0">
-												<li><a href="our_partners.html">ODM/OEM PARTNERS</a></li>
-												<li><a class="Reload-link" href="service_delivery_partners.html">SERVICE DELIVERY PARTNERS</a></li>
+												<li><a href="#partnering/our_partners">ODM/OEM PARTNERS</a></li>
+												<li><a class="Reload-link" href="#partnering/service_delivery_partners">SERVICE DELIVERY PARTNERS</a></li>
 											</ul>
 										</li>
 										
 										<li class="dropdown" id="aboutmenu">
-												<a class="dropdown-toggle" href="home.html">HOME<b class="caret hidden-xs"></b></a>
+												<a class="dropdown-toggle" href="#home">HOME<b class="caret hidden-xs"></b></a>
 												<a class="dropdown-toggle pull-right hidden-sm hidden-md hidden-lg" data-toggle="dropdown"><i
 														class="fas fa-angle-down"></i></a>
 											<ul class="dropdown-menu p-0">
-												<li><a href="we-are.html">ABOUT US</a></li>
-												<li><a href="industrysolutions.html">INDUSTRY SOLUTIONS</a></li>
-												<li><a href="technologyareas.html">TECHNOLOGY AREAS</a></li>
+												<li><a href="#about/we-are">ABOUT US</a></li>
+												<li><a href="#about/industrysolutions">INDUSTRY SOLUTIONS</a></li>
+												<li><a href="#about/technologyareas">TECHNOLOGY AREAS</a></li>
 												<!-- <li><a href="#about/valueproposition">VALUE PROPOSITION</a></li> -->
-												<li><a href="visionstatement.html">VISION STATEMENTS</a></li>
-												<li><a href="accreditation.html">ACCREDITATION</a></li>
-												<li><a href="careers.html">CAREERS</a></li>
-												<li><a href="contactus.html">CONTACT US</a></li>
+												<li><a href="#about/visionstatement">VISION STATEMENTS</a></li>
+												<li><a href="#about/accreditation">ACCREDITATION</a></li>
+												<li><a href="#about/careers">CAREERS</a></li>
+												<li><a href="#about/contactus">CONTACT US</a></li>
 											</ul>
 										</li>
 									</ul>
@@ -206,134 +211,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			</div>
 		</div>
 	</div>
+	<!--</header>-->
+
+	
 
 	<div class="container" id="content">
-
-<!-- <head><title>Home | Kvaliteta</title></head> -->
-<div class="landing" id="Home-land">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				  <li data-target="#myCarousel" data-slide-to="1"></li>
-				  <li data-target="#myCarousel" data-slide-to="2"></li>
-				  <li data-target="#myCarousel" data-slide-to="3"></li>
-				  <li data-target="#myCarousel" data-slide-to="4"></li>
-				</ol>
-
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-
-					<div class="item active">
-						<div class="overlay"></div>
-						<img src="img/2-dream.jpg" alt="You Dream IT, We Deliver IT" class="img-responsive fill">
-							<div class="carousel-caption middle Dream">
-								<span>"You Dream IT, We Deliver IT"</span>
-							</div>
-					</div>
-
-					<div class="item">
-						<div class="overlay"></div>
-						<img src="img/framework3 (1).jpg" alt="SDaaS" class="img-responsive fill">
-							<div class="carousel-caption middle frame">
-								<span>Framework-Based Software Development Practices</span>
-							</div>
-					</div>
-
-					<div class="item">
-						<div class="overlay"></div>
-						<img src="images/slide4_enterprise_datacenter.jpg" alt="Enterprise-IT" class="img-responsive fill">
-							<div class="carousel-caption middle cloud">
-								<span>Enterprise-IT Orchestrating The Hybrid Cloud</span>
-							</div>
-					</div>
-
-					<div class="item">
-						<div class="overlay"></div>
-						<img src="img/connecting world.jpg" alt="Service Provider" class="img-responsive fill">
-							<div class="carousel-caption middle con-world">
-								<span>Service provider-IT Connecting Worlds...</span>
-							</div>
-					</div>
-					
-					<div class="item">
-						<div class="overlay"></div>
-						<img src="img/partnership.jpg" alt="PARTNERING" class="img-responsive fill">
-							<div class="carousel-caption middle">
-								<span>Reaching New Heights. Together.</span>
-							</div>
-					</div>
-				</div>
-
-				<!-- Left and right controls -->
-				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#myCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-</div>
-		
-		<section class="main-content">
-			<div class="Kss-content">
-				<!--11.7.2020-->
-				<blockquote>
-				<h2 class="mtop-0">Our Approach</h2>
-				Kvaliteta applies the knowledge gained of experience working in multiple locations to every project we are involved in. Having operated in a variety of industries and locations, our proven ability to deliver solutions that satisfy our clients begins with our finely-tuned approach.</blockquote>
-			</div>
-		</section>
-		<section class="main-content">
-			<div class="greenbox" id="contact">
-				<div class="row">
-					<div class="col-sm-12 col-md-6">
-						<div class="contact-text">
-						<p class="lead text-center">Taking digitization initiatives for customers, spread across 3 major continents</p>
-							<p class="lead text-center"><a class="btn btn-default" href="contactus.html" role="button">CONTACT US</a></p>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-6">
-						<div>
-							<!-- <img class="img-responsive" src="img/home_world_map3 (1).png"> -->
-							<!--10.7.2020-->
-							<!-- <world-map class="map">
-							  <world-map-location top="54%" left="67.5%" label="<b>India</b>"></world-map-location>
-							  <world-map-location top="47%" left="61%" label="<b>U.A.E</b>"></world-map-location>
-							   <world-map-location top="61%" left="75%" label="<b>Singapore</b>"></world-map-location>
-							</world-map>  -->
-							
-				<!-- 5.9.2020 -->
-			<section id="places-map">
-				<div class="map animate-fade-in">
-					<img src="img/map (1).jpg" alt="Map of Western Union Locations" width="903" height="452" />
-					<div class="map-pins">
-				
-						<!-- To do -->
-						<a class="map-location-marker marker-india tooltip" data-map-title="India" data-map-link="India"></a>
-						<a class="map-location-marker marker-dubai tooltip" data-map-title="Dubai" data-map-link="dubai"></a>
-						<a class="map-location-marker marker-singapore tooltip" data-map-title="Singapore" data-map-link="singapore"></a>
-						<!-- Partners Location -->
-						<a class="map-location-marker1 marker-1 tooltip" data-map-title="Ethopia" data-map-link="Ethopia"></a>
-						<a class="map-location-marker1 marker-2 tooltip" data-map-title="Rwanda" data-map-link="Rwanda"></a>
-						<a class="map-location-marker1 marker-3 tooltip" data-map-title="kenya" data-map-link="kenya"></a>
-						<a class="map-location-marker1 marker-4 tooltip" data-map-title="Tanzania" data-map-link="Tanzania"></a>
-						<a class="map-location-marker1 marker-5 tooltip" data-map-title="nigeria" data-map-link="nigeria"></a>
-					</div>
-				</div>
-				<div class="map-lable text-center">
-					<span><img src="img/map-pin.png" alt="Branch" /> Branch Offices </span>
-					<span><img src="img/map-loc.png" alt="Partners" /> Partners Areas </span>
-				</div>
-			</section> 
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		</div> <!-- /container -->
+	</div> <!-- /container -->
 
 	<footer class="footer">
 		<div class="kva-prefooter"></div>
@@ -359,82 +242,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!--Map 5.9.2020-->
 	<!-- <script type="text/javascript" src="js/animate-map.js"></script> -->
 	
-	<!-- <script type="text/javascript" src="js/kva_nav.js"></script> -->
+	<script type="text/javascript" src="js/kva_nav.js"></script>
 	<script type="text/javascript" src="js/kva_style.js"></script>
 	
 	<!---->
 	<script type="text/javascript" src="external/image-map-resizer/js/imageMapResizer.min.js"></script>
 	<script type="text/javascript" src="external/jquery.maphilight.min.js"></script>
-
 </body>
 
 </html>
-<!-- -->
-	<script type='text/javascript'>
-    $(document).ready(function() {
-         $('.carousel').carousel({
-             interval: 3500
-         })
-    });    
-</script>
-<script>
-	$(document).ready(function(){
-		
-		$('.map-location-marker')
-			.click(function(e){
-				
-				e.preventDefault();
-				$('#map-info, #overlay').remove();
-				buildmapInfo(
-					$(this).data('mapLink'),
-					$(this).data('mapTitle'),
-					$(this).data('mapImage'),
-					$(this).data('jobListings')
-				);
-			});
-			$('.map-location-marker1')
-			.click(function(e){
-				
-				e.preventDefault();
-				$('#map-info, #overlay').remove();
-				buildmapInfo(
-					$(this).data('mapLink'),
-					$(this).data('mapTitle'),
-					$(this).data('mapImage'),
-					$(this).data('jobListings')
-				);
-			});
-	});
-	
-	function buildmapInfo ( location, title, src, link )
-	{
-		$('<div id="map-info">')
-			.addClass(location)
-			.fadeIn('slow')
-			.appendTo('#places-map .map')
-			.html(
-				'<h1>' + title + '</h1>' +
-				
-				'<span class="close-btn"></span>'
-			);
-		// Close map info if click anywhere outside of it
-		/* http://stackoverflow.com/questions/1403615/use-jquery-to-hide-a-div-when-the-user-clicks-outside-of-it */
-		var mapInfo = $('#map-info');
-			$(document).mouseup(function(e) {
-				if ( !mapInfo.is(e.target) && mapInfo.has(e.target).length === 0)
-				{
-					mapInfo
-					.fadeOut('slow', function(){
-						$(this).remove();
-					 });
-				}
-				
-			});
-			$('#map-info .close-btn').click(function(e) {
-				$('#map-info').fadeOut('slow', function(){
-						$(this).remove();
-					 });
-			});
-	}
-	
-</script>
+
